@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    body{
+        background-color:#ffffff;
+        
+    }
+    /* logo e botão */
+    .logo img{
+        width: 100%;
+    }
+    .header{
+        align-items: center;
+        width: 100vw;
+        height: 72px;
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem ;
+    }
+    .header img{
+        width: 40%;
+    }
+    .bnt{
+        height: 25px;
+        width: 80px;
+        border: 1px solid hsl(322, 100%, 66%);
+        border-radius: 50px;
+        color:hsl(322, 100%, 66%);
+        background-color: #ffffff;
+        user-select: none;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 1%;
+    }
+    .bnt5{
+        text-align: center;
+    }
+    /* primeiro texto*/
+    .raiva{
+        padding: 4rem 0 ;
+
+    }
+    #titulo{
+        
+        text-align: center;
+        padding: 1rem 0;
+        font-family: 'Open Sans', sans-serif;
+        color: hsl(192, 100%, 9%);;
+    }
+    #t1{
+        text-align: center;
+        padding: 0 20%;
+        color: hsl(192, 100%, 9%);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+    /* segundo botão*/
+    .botao{
+        padding: 8%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .botao2{
+        height: 30px;
+        width: 200px;
+        border-radius: 80px;
+        border: 1px solid hsl(322, 100%, 66%);
+        background-color: hsl(322, 100%, 66%);
+        color: #ffffff;
+        user-select: none;
+        cursor: pointer;
+        padding: .5vw;
+        text-align:center;
+
+    }
+    /* imagem do celular com pc*/
+    .img img {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* dados da pessoas*/
+    .social img{
+        width: 40px;
+        padding: 2%;
+        margin: auto;   
+    }
+    .pessoas{
+        
+        display: flex;
+        justify-content: center;
+    }
+    .chat{
+        display: flex;
+        justify-content: center;
+    }
+    .div{
+        
+        text-align: center;
+    }
+    .dir{
+        text-align: center;
+    }
+   #a{
+       color: hsl(192, 100%, 9%);
+       font-size: 40px;
+       font-family: 'Open Sans', sans-serif;
+   }
+   #b{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        color: rgb(169,169,169);
+   }
+   /*primeira img com pessoas*/
+   .pr3 img{
+        width: 300px;
+   }
+   .text{
+       margin: 5% 5% 0 5%;
+       padding: 0 10%;
+       text-align: center;
+       color: hsl(192, 100%, 9%);
+   }
+   .pr3{
+    background-color: hsl(207, 100%, 98%);
+    text-align: center;
+   }
+   #abc{
+       font-family: 'Open Sans', sans-serif;
+       font-size: 40px;
+       padding: 5%;
+   }
+   #abcd{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    color: hsl(192, 100%, 9%);
+    padding: 0 15px;
+   }
+   .pr2 img{
+       width: 100%;
+   }
+   .pr2{
+       text-align: center;
+       transform: translate(0 ,10px);
+   }
+   .pr4 img{
+       width: 100%;
+   }
+   /* segunda img com pessoas*/
+   .seg img{
+       align-items: center;
+       width: 290px;
+    
+   }
+   .seg{
+       margin: auto;
+       text-align: center;
+       
+   }
+   #tes1{ 
+       padding: 5%;
+       font-size: 38px;
+       color: hsl(192, 100%, 9%);
+       font-family: 'Open Sans', sans-serif;
+       align-items: center;
+   }
+   #tes2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color:hsl(192, 100%, 9%);
+   }
+   .tex14{
+       overflow-wrap: break-word;
+       text-align: center;
+       padding: 15%;
+   }
+   /* terceira imagem*/
+   .tex43{
+       text-align: center;
+       padding: 0 20%;
+   }
+   .ter{
+       text-align: center;
+       
+       color:hsl(192, 100%, 9%);
+   }
+   .ter3 img{
+       width: 290px;
+       
+   }
+   #ter1{
+       padding: 5%;
+       font-size: 40px;
+       font-family: 'Open Sans', sans-serif;
+   }
+   #ter5{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 15px;
+   }
+   .ter3{
+       background-color:hsl(207, 100%, 98%);
+   }
+   .ter2 img{
+       width: 100%;
+   }
+   .ter2{
+       transform: translate(0 , 5%);
+   }
+   .ter4 img{
+       width: 100%;
+   }
+   /*botão 3 e titulo*/
+   .tex21{
+       text-align: center;
+       padding: 0 10px;
+       font-size: 20px;
+       color:hsl(192, 100%, 9%);
+   }
+   .butoon{
+
+    height: 40px;
+    width: 200px;
+    border-radius: 80px;
+    text-align: center;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 1.5%;
+   }
+   .botoa{
+
+       padding: 10%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   #ts1{
+    font-family: 'Open Sans', sans-serif;
+   }
+   /* Final*/
+   .fin img{
+       width: 100%;
+   }
+   .fin{
+
+        transform: translate(0 ,10%);
+   }
+   .fin1{
+
+       background-color:hsl(192, 100%, 9%);
+       color: #ffffff;
+       padding: 10% 8%;
+       font-family: 'Open Sans', sans-serif;
+   }
+    .buton{
+
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    }
+    .buton2{
+    height: 40px;
+    width: 130px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid hsl(322, 100%, 66%);
+    background-color: hsl(322, 100%, 66%);
+    color: #ffffff;
+    user-select: none;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+    padding: 8px;
+    }
+    .text12 > img{
+        width: 180px;
+        margin-top: 20px;
+        filter: grayscale(100%) invert(1)
+    }
+    .icons img{
+        margin-top: 40px;
+        width: 20px;
+    }
+    .icons{
+        display: inline;
+    }
+    @media(min-width:800px) and (max-width:1249px){
+        
+        .bnt5{
+            font-size: 14px;
+        }
+        .pessoas img{
+            width: 9%;
+        }
+        .chat img{
+            width: 9%;
+        }
+        #a{
+            font-size: 70px;
+        }
+        #b{
+            font-size: 16px;
+        }
+    }
+    @media (min-width:841px) and (max-width:1249px){
+        
+        .header{
+            align-items: center;
+        }
+        .logo{
+            width: 300px;
+        }
+        .bnt{
+            width: 90px;
+        }
+    }
+    @media (min-width:1250px)
+    {
+        .header{
+            align-items: center;
+        }
+        .logo img { 
+           width: 90%;
+        }
+        .bnt{
+            
+            width: 140px;
+            font-size: 18px;
+            padding: 0 ;
+            text-align: center;
+        }
+        .botao2{
+            padding: 1vw;
+            width: 280px;
+            height: 60px;
+            font-size: 20px ;
+            text-align: center;
+        }
+        .pessoas img{
+            width: 8%;
+            margin-top: 5px;
+        }
+        #a{
+            font-size: 100px;
+        }
+        #b{
+            font-size:15px;
+        }
+        .chat img{
+            width: 8%;
+        }
+        .pr3 img{
+            padding: 0 2%;
+            width: 100%;
+        }
+        .pr3{
+            display: flex;
+            align-items: center;
+        }
+        .seg{
+            display: flex;
+            align-items: center;
+        }
+        .seg img{
+            width: 100%;
+        }
+        .ter3{
+            display: flex;
+            align-items: center;
+        }
+        .ter3 img{
+            padding: 0 2%;
+            width: 100%;
+        }
+        .tex21{
+            font-size: 30px;
+        }
+        .butoon{
+            width: 240px;
+            height: 60px;
+            font-size: 18px;
+            padding: 1.5%;
+        }
+        .fin1{
+            font-size: 30px;
+        }
+        .buton2{
+            padding: 5px;
+            font-size: 20px;
+        }
+        .icons img{
+            width: 30px;
+        }
+        .ladin{
+            margin-right: 3%;
+        }
+    }
+    
